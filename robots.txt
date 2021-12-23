@@ -1,0 +1,7 @@
+# HscBolg robots
+User-agent: * 
+Allow: /
+Disallow: /cdn-cgi/
+Sitemap: https://www.hscbook.com/sitemap.xml
+Sitemap: https://www.hscbook.com/baidusitemap.xml
+

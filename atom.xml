@@ -1,0 +1,564 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>HscBook.</title>
+  <icon>https://www.hscbook.com/icon.png</icon>
+  <subtitle>互联网的技术大杂烩</subtitle>
+  <link href="https://www.hscbook.com/atom.xml" rel="self"/>
+  
+  <link href="https://www.hscbook.com/"/>
+  <updated>2020-03-14T07:12:14.000Z</updated>
+  <id>https://www.hscbook.com/</id>
+  
+  <author>
+    <name>Hscpro</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Mikrotik 的 RouterBoard 硬件产品默认防火墙规则</title>
+    <link href="https://www.hscbook.com/article/routeros-firewall/"/>
+    <id>https://www.hscbook.com/article/routeros-firewall/</id>
+    <published>2020-03-13T07:42:58.000Z</published>
+    <updated>2020-03-14T07:12:14.000Z</updated>
+    
+    
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;Mikrotik 的 RouterBoard 硬件产品默认都有带有配置良好的防火墙规则，x86/CHR 设备的 RouterOS 默认不带防火墙规则。 如果你不小心删掉了防火墙规则，或者需要 RouterBoard 的默认防火墙规则，可以导入以下配置&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Code" scheme="https://www.hscbook.com/categories/code/"/>
+    
+    
+    <category term="RouterOS" scheme="https://www.hscbook.com/tags/routeros/"/>
+    
+    <category term="Firewall" scheme="https://www.hscbook.com/tags/firewall/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Mikrotik RouterOS 路由器 CloudFlare DDNS 动态解析脚本(IPv4/IPv6)</title>
+    <link href="https://www.hscbook.com/article/routeros-ddns-cloudflare/"/>
+    <id>https://www.hscbook.com/article/routeros-ddns-cloudflare/</id>
+    <published>2020-03-13T04:42:58.000Z</published>
+    <updated>2021-12-11T15:51:44.054Z</updated>
+    
+    
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;在 RouterOS 添加一个脚本执行后将公网IPv4/IPv6解析到指定域名，该脚本改自 github 的 viritt/cloudflare_update.script 相比原版本增加IPv6解析以及双栈的支持。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Code" scheme="https://www.hscbook.com/categories/code/"/>
+    
+    
+    <category term="RouterOS" scheme="https://www.hscbook.com/tags/routeros/"/>
+    
+    <category term="DDNS" scheme="https://www.hscbook.com/tags/ddns/"/>
+    
+    <category term="cloudflare" scheme="https://www.hscbook.com/tags/cloudflare/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Nginx 结合又拍云反代理 Google Analytics 加速国内访问</title>
+    <link href="https://www.hscbook.com/article/linux-google-analytics/"/>
+    <id>https://www.hscbook.com/article/linux-google-analytics/</id>
+    <published>2019-11-24T14:55:32.000Z</published>
+    <updated>2021-12-19T10:19:17.118Z</updated>
+    
+    
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt; 使用脚本自动修改 Google Analytics 统计的JS文件，上传到又拍云加速 Google Analytics 统计，解决统计JS文件间接性无响应导致的网站加载缓慢。&lt;br&gt;</summary>
+    
+    
+    
+    <category term="Linux" scheme="https://www.hscbook.com/categories/linux/"/>
+    
+    
+    <category term="shell" scheme="https://www.hscbook.com/tags/shell/"/>
+    
+    <category term="linux" scheme="https://www.hscbook.com/tags/linux/"/>
+    
+    <category term="Analytics" scheme="https://www.hscbook.com/tags/analytics/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>树莓派Aria2不限速下载利器安装与配置全攻略</title>
+    <link href="https://www.hscbook.com/article/raspberrypi-aria2/"/>
+    <id>https://www.hscbook.com/article/raspberrypi-aria2/</id>
+    <published>2019-01-21T13:12:33.000Z</published>
+    <updated>2021-12-19T10:21:06.041Z</updated>
+    
+    
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;大家新年快乐！距离上一次更新文章已是半年。Aria2这个小伙伴自从上年的春节就呆在我的树莓派里了，使用了一年给我的体验还是蛮好的；总结网上的一些文章，以我自己使用了一年的过程遇到的一些问题都归纳在这一篇文章里分享出来。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Geek" scheme="https://www.hscbook.com/categories/geek/"/>
+    
+    
+    <category term="shell" scheme="https://www.hscbook.com/tags/shell/"/>
+    
+    <category term="linux" scheme="https://www.hscbook.com/tags/linux/"/>
+    
+    <category term="RaspBerryPi" scheme="https://www.hscbook.com/tags/raspberrypi/"/>
+    
+    <category term="Geek" scheme="https://www.hscbook.com/tags/geek/"/>
+    
+    <category term="Aria2" scheme="https://www.hscbook.com/tags/aria2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>树莓派音乐闹钟，定时播放网易云音乐每日推荐歌单歌曲及插播语音天气预报</title>
+    <link href="https://www.hscbook.com/article/raspberrypi-cloudmusic/"/>
+    <id>https://www.hscbook.com/article/raspberrypi-cloudmusic/</id>
+    <published>2018-05-31T14:00:00.000Z</published>
+    <updated>2021-12-19T10:24:06.688Z</updated>
+    
+    
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;早些时候写了一篇文章《&lt;a href=&quot;https://www.hscbook.com/article/raspberrypi-alarmclock/&quot;&gt;树莓派打造淡入闹钟，让电台轻轻的叫你起床&lt;/a&gt;》，可是现在听FM音质差不说未必也太怀旧了；最近闲下来又写了个Shell脚本配合NeteaseCloudMusicAPI实现播放网易云音乐每日推荐歌曲，并支持插播一段天气预报或者自定义语音提示；由于是纯Shell实现理论上支持运行Shell的Linux系统都能使用。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Geek" scheme="https://www.hscbook.com/categories/geek/"/>
+    
+    
+    <category term="shell" scheme="https://www.hscbook.com/tags/shell/"/>
+    
+    <category term="code" scheme="https://www.hscbook.com/tags/code/"/>
+    
+    <category term="linux" scheme="https://www.hscbook.com/tags/linux/"/>
+    
+    <category term="RaspBerryPi" scheme="https://www.hscbook.com/tags/raspberrypi/"/>
+    
+    <category term="Geek" scheme="https://www.hscbook.com/tags/geek/"/>
+    
+    <category term="NeteaseCloudMusic" scheme="https://www.hscbook.com/tags/neteasecloudmusic/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>免费 Let&#39;s Encrypt 证书申请、部署全攻略与自动续期教程</title>
+    <link href="https://www.hscbook.com/article/code-autohttp/"/>
+    <id>https://www.hscbook.com/article/code-autohttp/</id>
+    <published>2018-03-11T10:00:00.000Z</published>
+    <updated>2021-12-19T10:12:38.898Z</updated>
+    
+    
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;如今 HTTPS 证书不再是像以前那么昂贵、缓慢，HTTP/2 等协议的支持使 HTTPS 变得快速甚至比 HTTP 要快，本篇教程利用 Monit 监控 Shell 脚本配合 ssl-cert-check 实现证书过期的自动续签，续签失败邮件告警的解决方案&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Code" scheme="https://www.hscbook.com/categories/code/"/>
+    
+    
+    <category term="Let&#39;s Encrypt" scheme="https://www.hscbook.com/tags/let-s-encrypt/"/>
+    
+    <category term="HTTPS" scheme="https://www.hscbook.com/tags/https/"/>
+    
+    <category term="shell" scheme="https://www.hscbook.com/tags/shell/"/>
+    
+    <category term="code" scheme="https://www.hscbook.com/tags/code/"/>
+    
+    <category term="linux" scheme="https://www.hscbook.com/tags/linux/"/>
+    
+    <category term="hexo" scheme="https://www.hscbook.com/tags/hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>一个合格的服务器自动备份案例，闭环备份机制出错邮件报警</title>
+    <link href="https://www.hscbook.com/article/linux-backups/"/>
+    <id>https://www.hscbook.com/article/linux-backups/</id>
+    <published>2017-09-23T07:02:38.000Z</published>
+    <updated>2021-12-19T10:18:53.907Z</updated>
+    
+    
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;数据无价，服务器备份机制是服务器维护的重中之重！利用Dropbox的上传脚本+Monit监控实现服务器每周循环生成备份并上传到 Dropbox 网盘，通过 Shell 脚本实现出现备份失败及时通过邮件通知、自动清理旧的备份数据、禁止在黄金时段执行备份、禁止重复覆盖备份，确保服务器的宝贵数据万无一失！&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Linux" scheme="https://www.hscbook.com/categories/linux/"/>
+    
+    
+    <category term="shell" scheme="https://www.hscbook.com/tags/shell/"/>
+    
+    <category term="linux" scheme="https://www.hscbook.com/tags/linux/"/>
+    
+    <category term="dropbox" scheme="https://www.hscbook.com/tags/dropbox/"/>
+    
+    <category term="backups" scheme="https://www.hscbook.com/tags/backups/"/>
+    
+    <category term="monit" scheme="https://www.hscbook.com/tags/monit/"/>
+    
+    <category term="debian" scheme="https://www.hscbook.com/tags/debian/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Nginx如何在使用类似CloudFlare的CDN加速服务后还能正常获取客户端的真实IP地址</title>
+    <link href="https://www.hscbook.com/article/servar-cloudflare/"/>
+    <id>https://www.hscbook.com/article/servar-cloudflare/</id>
+    <published>2017-09-06T10:43:38.000Z</published>
+    <updated>2021-12-19T10:27:48.111Z</updated>
+    
+    
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;Linux 运营干货，关于如何在使用 Content Delivery Network (CDN) 内容分发网络后服务器既后端能正常获取客户端的真实IP。本篇文章以CloudFlare为例子实例讲解获取前端客户端真实IP的方法，万事开头难相信你会了这一招应该会举一反三吧！&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Linux" scheme="https://www.hscbook.com/categories/linux/"/>
+    
+    
+    <category term="linux" scheme="https://www.hscbook.com/tags/linux/"/>
+    
+    <category term="nginx" scheme="https://www.hscbook.com/tags/nginx/"/>
+    
+    <category term="cloudflare" scheme="https://www.hscbook.com/tags/cloudflare/"/>
+    
+    <category term="CDN" scheme="https://www.hscbook.com/tags/cdn/"/>
+    
+    <category term="realip" scheme="https://www.hscbook.com/tags/realip/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>树莓派海文SeaFile配置Nginx前端反代并启用HTTPS全攻略</title>
+    <link href="https://www.hscbook.com/article/raspberrypi-seafile-conf/"/>
+    <id>https://www.hscbook.com/article/raspberrypi-seafile-conf/</id>
+    <published>2017-08-26T07:26:31.000Z</published>
+    <updated>2021-12-19T10:25:00.989Z</updated>
+    
+    
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;很多小伙伴们不会Nginx反代SeaFile，抽空写个教程吧。这里教大家如何使用Nginx反代理海文SeaFile开源网盘，并且启用HTTPS开启HTTP2模式加速SeaFile，Nginx反代理有个好处是可以使用CDN加速，速度与安全肩并肩！&lt;/p&gt;
+&lt;/blockquote&gt;</summary>
+    
+    
+    
+    <category term="Geek" scheme="https://www.hscbook.com/categories/geek/"/>
+    
+    
+    <category term="nginx" scheme="https://www.hscbook.com/tags/nginx/"/>
+    
+    <category term="RaspBerryPi" scheme="https://www.hscbook.com/tags/raspberrypi/"/>
+    
+    <category term="Geek" scheme="https://www.hscbook.com/tags/geek/"/>
+    
+    <category term="seafile" scheme="https://www.hscbook.com/tags/seafile/"/>
+    
+    <category term="Cloud" scheme="https://www.hscbook.com/tags/cloud/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>树莓派自搭建家庭云储存服务，海文SeaFile安装全攻略</title>
+    <link href="https://www.hscbook.com/article/raspberrypi-seafile/"/>
+    <id>https://www.hscbook.com/article/raspberrypi-seafile/</id>
+    <published>2017-06-14T04:42:58.000Z</published>
+    <updated>2021-12-19T10:26:02.582Z</updated>
+    
+    
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;作为街拍党的我会经常备份相册到云方便随时随地同步到宿舍和家里的电脑，而国内支持手机相册备份的云服务要么就限速限空间老铁实在是不能忍受了。召唤树莓派！是时候搭建个私人家庭网盘了，对比了两家较大名气的开源云服务SeaFile和OwnCloud，我选择了SeaFile，由于树莓派在内网，穿透的问题6月的时候搭建了个评论服务器刚好资源较空闲可以用来内网穿透到树莓派。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Geek" scheme="https://www.hscbook.com/categories/geek/"/>
+    
+    
+    <category term="nginx" scheme="https://www.hscbook.com/tags/nginx/"/>
+    
+    <category term="RaspBerryPi" scheme="https://www.hscbook.com/tags/raspberrypi/"/>
+    
+    <category term="Geek" scheme="https://www.hscbook.com/tags/geek/"/>
+    
+    <category term="seafile" scheme="https://www.hscbook.com/tags/seafile/"/>
+    
+    <category term="seahub" scheme="https://www.hscbook.com/tags/seahub/"/>
+    
+    <category term="memcached" scheme="https://www.hscbook.com/tags/memcached/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>一劳永逸，搭建ISSO开源评论系统全攻略教程</title>
+    <link href="https://www.hscbook.com/article/isso-comment/"/>
+    <id>https://www.hscbook.com/article/isso-comment/</id>
+    <published>2017-06-05T10:11:47.000Z</published>
+    <updated>2021-12-19T10:17:56.669Z</updated>
+    
+    
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;自己的评论系统才是最好的评论系统，前段时间多说关闭了评论系统切换到网易云跟帖毕竟是Beta项目反垃圾系统太严格了，动不动就审核失败而且自己还看不到被系统删除的留言，而且目前在云跟帖的群里的管理员说目前该项目正在暂停状态意思云跟帖也随时会关闭，果断自搭建了个留言系统，综合实验了各个开源系统最终ISSO的系统最稳定，唯一的遗憾就是没有后台系统&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Hexo" scheme="https://www.hscbook.com/categories/hexo/"/>
+    
+    
+    <category term="linux" scheme="https://www.hscbook.com/tags/linux/"/>
+    
+    <category term="hexo" scheme="https://www.hscbook.com/tags/hexo/"/>
+    
+    <category term="comment" scheme="https://www.hscbook.com/tags/comment/"/>
+    
+    <category term="isso" scheme="https://www.hscbook.com/tags/isso/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Wannacry 蠕虫勒索(比特币)病毒补丁与免疫工具</title>
+    <link href="https://www.hscbook.com/article/wannacry-patch/"/>
+    <id>https://www.hscbook.com/article/wannacry-patch/</id>
+    <published>2017-05-15T04:30:18.000Z</published>
+    <updated>2019-10-24T12:37:46.000Z</updated>
+    
+    
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;席卷全球的WannaCry勒索病毒的影响仍在持续，全球多个国家受到网络攻击。目前病毒已经变种，尽快禁封相关协议端口并打上电脑漏洞补丁。&lt;/p&gt;
+&lt;/blockquote&gt;</summary>
+    
+    
+    
+    <category term="Share" scheme="https://www.hscbook.com/categories/share/"/>
+    
+    
+    <category term="Wannacry" scheme="https://www.hscbook.com/tags/wannacry/"/>
+    
+    <category term="Loophole" scheme="https://www.hscbook.com/tags/loophole/"/>
+    
+    <category term="Patch" scheme="https://www.hscbook.com/tags/patch/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>树莓派安装 HAProxy 实现高可用高负载SS服务器线路负载均衡</title>
+    <link href="https://www.hscbook.com/article/raspberrypi-haproxy/"/>
+    <id>https://www.hscbook.com/article/raspberrypi-haproxy/</id>
+    <published>2017-05-13T01:49:10.000Z</published>
+    <updated>2021-12-19T10:24:27.270Z</updated>
+    
+    
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;服务商会有好几条线路提供，有时候某条线路会不稳定，需要手动切换线路。利用 HAProxy 可实现主备线路切换，并且可设置均衡负载让速度爆炸(需要服务商支持同时登陆)&lt;/p&gt;
+&lt;/blockquote&gt;</summary>
+    
+    
+    
+    <category term="Geek" scheme="https://www.hscbook.com/categories/geek/"/>
+    
+    
+    <category term="linux" scheme="https://www.hscbook.com/tags/linux/"/>
+    
+    <category term="RaspBerryPi" scheme="https://www.hscbook.com/tags/raspberrypi/"/>
+    
+    <category term="Geek" scheme="https://www.hscbook.com/tags/geek/"/>
+    
+    <category term="HAProxy" scheme="https://www.hscbook.com/tags/haproxy/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>树莓派香橙派无线播放，实现DLNA与AirPlay协议无线音箱</title>
+    <link href="https://www.hscbook.com/article/raspberrypi-audio/"/>
+    <id>https://www.hscbook.com/article/raspberrypi-audio/</id>
+    <published>2017-04-17T10:01:59.000Z</published>
+    <updated>2021-12-19T10:24:17.464Z</updated>
+    
+    
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;改造树莓派、香橙派摇身一变无线WIFI音响在线播放，无需安装XBMC这个庞然大物也能实现DLNA和AirPlay双协议的WIFI音响，DLNA 实现于Gmrender-resurrect项目、AirPlay实现于Shairport项目&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Geek" scheme="https://www.hscbook.com/categories/geek/"/>
+    
+    
+    <category term="code" scheme="https://www.hscbook.com/tags/code/"/>
+    
+    <category term="RaspBerryPi" scheme="https://www.hscbook.com/tags/raspberrypi/"/>
+    
+    <category term="Geek" scheme="https://www.hscbook.com/tags/geek/"/>
+    
+    <category term="audio" scheme="https://www.hscbook.com/tags/audio/"/>
+    
+    <category term="DLNA" scheme="https://www.hscbook.com/tags/dlna/"/>
+    
+    <category term="AirPlay" scheme="https://www.hscbook.com/tags/airplay/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo 安装网易云跟帖评论的方法和注意事项</title>
+    <link href="https://www.hscbook.com/article/hexo-gentie/"/>
+    <id>https://www.hscbook.com/article/hexo-gentie/</id>
+    <published>2017-04-15T02:43:32.000Z</published>
+    <updated>2021-12-19T10:17:11.562Z</updated>
+    
+    
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt; 对于国内来说送走多说后拥抱网易云跟帖是一个比较好的选择了，对于不在乎国内的访问的话还是比较推荐Disqus，毕竟网易云跟帖项目才刚刚开始还在BETA状态&lt;br&gt;</summary>
+    
+    
+    
+    <category term="Hexo" scheme="https://www.hscbook.com/categories/hexo/"/>
+    
+    
+    <category term="code" scheme="https://www.hscbook.com/tags/code/"/>
+    
+    <category term="hexo" scheme="https://www.hscbook.com/tags/hexo/"/>
+    
+    <category term="gentie" scheme="https://www.hscbook.com/tags/gentie/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo 国内外Win环境安装全教程以及插件推荐</title>
+    <link href="https://www.hscbook.com/article/hexo-install/"/>
+    <id>https://www.hscbook.com/article/hexo-install/</id>
+    <published>2017-04-05T04:32:59.000Z</published>
+    <updated>2021-12-19T10:17:09.125Z</updated>
+    
+    
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;其实网上关于介绍安装Hexo的已经非常多了，所以这里不多作介绍，写的全是我自己安装Hexo遇到的问题和解决方法，权当自己的备忘录仅供参考，请先大概阅读全文再实际操作。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Hexo" scheme="https://www.hscbook.com/categories/hexo/"/>
+    
+    
+    <category term="hexo" scheme="https://www.hscbook.com/tags/hexo/"/>
+    
+    <category term="install" scheme="https://www.hscbook.com/tags/install/"/>
+    
+    <category term="node" scheme="https://www.hscbook.com/tags/node/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>无悔人生，趁青春尽轻狂</title>
+    <link href="https://www.hscbook.com/article/young-frivolous/"/>
+    <id>https://www.hscbook.com/article/young-frivolous/</id>
+    <published>2017-04-03T11:07:57.000Z</published>
+    <updated>2021-12-19T10:27:51.559Z</updated>
+    
+    
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;呢段片唔係講夢想，想提醒大家青春就要放膽去輕狂&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Share" scheme="https://www.hscbook.com/categories/share/"/>
+    
+    
+    <category term="video" scheme="https://www.hscbook.com/tags/video/"/>
+    
+    <category term="mov" scheme="https://www.hscbook.com/tags/mov/"/>
+    
+    <category term="mv" scheme="https://www.hscbook.com/tags/mv/"/>
+    
+    <category term="Youtube" scheme="https://www.hscbook.com/tags/youtube/"/>
+    
+    <category term="BOMBA" scheme="https://www.hscbook.com/tags/bomba/"/>
+    
+    <category term="励志" scheme="https://www.hscbook.com/tags/lizi/"/>
+    
+    <category term="转载" scheme="https://www.hscbook.com/tags/zhuanzai/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>树莓派打造淡入闹钟，让电台轻轻的叫你起床</title>
+    <link href="https://www.hscbook.com/article/raspberrypi-alarmclock/"/>
+    <id>https://www.hscbook.com/article/raspberrypi-alarmclock/</id>
+    <published>2017-03-28T12:54:00.000Z</published>
+    <updated>2021-12-19T10:20:39.837Z</updated>
+    
+    
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;16年入了一个树莓派B+版折腾了一下就放在角落里积灰了，我这天天总睡懒觉的人被冰冷的闹钟吓得激醒是非常痛苦的，某天打扫房间发现了被我打入冷宫的树莓派就顺手拿出来打造成淡入闹钟+晨起天气预报+晚间电台播放。&lt;/p&gt;
+&lt;/blockquote&gt;</summary>
+    
+    
+    
+    <category term="Geek" scheme="https://www.hscbook.com/categories/geek/"/>
+    
+    
+    <category term="code" scheme="https://www.hscbook.com/tags/code/"/>
+    
+    <category term="linux" scheme="https://www.hscbook.com/tags/linux/"/>
+    
+    <category term="RaspBerryPi" scheme="https://www.hscbook.com/tags/raspberrypi/"/>
+    
+    <category term="Geek" scheme="https://www.hscbook.com/tags/geek/"/>
+    
+    <category term="FM" scheme="https://www.hscbook.com/tags/fm/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>eAccelerator与phpMyAdmin冲突造成页面空白的解决办法</title>
+    <link href="https://www.hscbook.com/article/eaccelerator-phpmyadmin/"/>
+    <id>https://www.hscbook.com/article/eaccelerator-phpmyadmin/</id>
+    <published>2017-03-25T14:51:48.000Z</published>
+    <updated>2021-12-19T10:14:25.558Z</updated>
+    
+    
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;安装eAccelerator后会造成phpMyAdmin登录页面不能正常显示，在httpd.conf文件添加一段代码就可以了，原理是禁用了在访问phpMyAdmin时的eAccelerator，其他页面不受影响。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Code" scheme="https://www.hscbook.com/categories/code/"/>
+    
+    
+    <category term="linux" scheme="https://www.hscbook.com/tags/linux/"/>
+    
+    <category term="php" scheme="https://www.hscbook.com/tags/php/"/>
+    
+    <category term="apache" scheme="https://www.hscbook.com/tags/apache/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Nginx反代理加速，打造自己的Gravatar头像缓存服务器</title>
+    <link href="https://www.hscbook.com/article/gravatar-cdn/"/>
+    <id>https://www.hscbook.com/article/gravatar-cdn/</id>
+    <published>2017-03-25T14:20:34.000Z</published>
+    <updated>2021-12-19T10:14:09.559Z</updated>
+    
+    
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;利用Nginx反代理结合七牛CDN打造自己的Gravatar头像服务器&lt;/p&gt;
+&lt;/blockquote&gt;</summary>
+    
+    
+    
+    <category term="Code" scheme="https://www.hscbook.com/categories/code/"/>
+    
+    
+    <category term="php" scheme="https://www.hscbook.com/tags/php/"/>
+    
+    <category term="wordpress" scheme="https://www.hscbook.com/tags/wordpress/"/>
+    
+    <category term="gravatar" scheme="https://www.hscbook.com/tags/gravatar/"/>
+    
+    <category term="cdn" scheme="https://www.hscbook.com/tags/cdn/"/>
+    
+    <category term="nginx" scheme="https://www.hscbook.com/tags/nginx/"/>
+    
+  </entry>
+  
+</feed>
